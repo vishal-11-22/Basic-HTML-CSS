@@ -1,0 +1,63 @@
+body
+{
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.header
+{
+    background-color: rgb(44, 72, 139);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    color: rgb(255, 255, 255);
+    
+}
+.logo
+{
+    font-size: 20px;
+    font-weight:larger;
+}
+.nav a
+{
+    text-decoration: none;
+    color: rgb(255, 247, 247);
+
+}
+.nav a:hover
+{
+    color: rgb(37, 4, 252);
+}
+.hero
+{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(172, 234, 237, 0.516);
+    text-align: center;
+
+}
+.hero h1
+{
+    font-size: 36px;
+    margin-bottom: -15px;
+}
+.hero p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.hero button
+{
+    padding: 10px 20px;
+    background-color:rgb(168, 219, 194);
+    cursor: pointer;
+    border-radius: 10px;
+}
+.hero button:hover
+{
+    background-color: rgb(245, 245, 245);
+    transform:scale(1.1);
+}
