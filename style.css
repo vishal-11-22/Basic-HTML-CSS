@@ -31,6 +31,12 @@ body
 }
 .hero
 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.right
+{
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -38,18 +44,19 @@ body
     align-items: center;
     background-color:  rgba(172, 234, 237, 0.516);
     text-align: center;
+    width:90%;
 
 }
-.hero h1
+.right h1
 {
     font-size: 36px;
     margin-bottom: -15px;
 }
-.hero p{
+.right p{
     font-size: 20px;
     margin-bottom: 20px;
 }
-.hero button
+.right button
 {
     padding: 10px 20px;
     background-color:rgb(168, 219, 194);
@@ -60,4 +67,9 @@ body
 {
     background-color: rgb(245, 245, 245);
     transform:scale(1.1);
+}
+.left img
+{
+    width:100%;
+
 }
